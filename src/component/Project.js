@@ -29,7 +29,8 @@ export const Project = () => {
                 <Row>
                     <Col>
                     <h2>Projects</h2>
-                    <p>paragraph to be added</p>
+                    <p>"Explore my diverse portfolio of projects, each a testament to my passion for problem-solving and creativity. From web development to software engineering, discover the impact of my work."</p>
+                    <p className="link-dir">Github Link in Navbar and Footer</p>
                     <Tab.Container id="projetcs-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
