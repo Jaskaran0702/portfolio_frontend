@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 //import { ArrowRightCircle } from "react-bootstrap-icons";
-import bannerimg from "../assets/images/banner-img2.png";
+import bannerimg from "../assets/images/p1_final.png";
 
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [" Web-Developer", " Tech-Enthusiast", " Student"];
+    const toRotate = [" Web-Developer", " Knight-Coder", " Student"];
     const [text,setText] = useState('');
     const [delta, setDelta] = useState(300-Math.random()*100);
     const period = 2000;
@@ -45,10 +45,11 @@ export const Banner = () =>{
                 <Row className="align-item-center">
                     <Col xs ={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio!</span>
-                        <h1>{`Hi! I'm Diya`}
+                        <h1>{`Hi! I'm Jaskaran`}
                         <br/>
                         <span className="wrap">A{text}</span></h1>
-                        <p>my name is diya ghodasara</p>
+                        <p>My name is Jaskaran Baweja. </p>
+                        <p>With a robust Computer Science education, I adeptly apply theoretical knowledge to practical projects, fostering problem-solving skills. Quick to grasp new concepts, I stay updated on industry trends, showcasing responsibility, drive, and leadership prowess.</p>
                         
                     </Col>
                     <Col xs={12} md={6} xl={5}>

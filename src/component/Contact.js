@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/images/contact-img.png";
+import contactImg from "../assets/images/p2.jpg";
 
 
 export const Contact = () => {

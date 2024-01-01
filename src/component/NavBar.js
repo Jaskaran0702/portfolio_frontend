@@ -51,7 +51,7 @@ export const NavBar=() =>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                  <a href="https://drive.google.com/file/d/11mmjykEFT1fRBaXs_CGoS6oV1oVqw5qE/view?usp=sharing" target="_blank"><img src={cv} alt="resume"/></a>
+                  <a href="https://drive.google.com/drive/folders/1ORlHiX1kqc2oDRmnNGjPzG7SN6nxxQBR?usp=sharing" target="_blank"><img src={cv} alt="resume"/></a>
                   <a href="https://www.linkedin.com/in/diya-g-536692223/" target="_blank"><img src={linkedin} alt="linkedIn"/></a>
                   <a href="https://github.com/diyaghodasara" target="_blank"><img src={git} alt="Icon" /></a>
               </div>

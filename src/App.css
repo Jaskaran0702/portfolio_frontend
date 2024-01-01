@@ -102,7 +102,7 @@ span.navbar-text{
   width: 50px;
   height: 50px;
   position: absolute;
-  background-color: #d1b8e0;
+  background-color:rgb(120, 165, 188);
   border-radius: 50%;
   transform: scale(0);
   transition: 0.3s ease-in-out;
@@ -140,7 +140,7 @@ span.navbar-text{
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #d1b8e0;
+  background-color: rgb(120, 165, 188);
   left: 0;
   top: 0;
   z-index: -1;
@@ -206,7 +206,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 180px 0 100px 0;
-  background-image: url('./assets/images/banner-bg2.png');
+  background-image: url('./assets/images/bg-2.webp');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 96, 173, 0.5) -5.91%, rgba(89, 63, 116, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(48,76,104, 0.5) -5.91%, rgba(79,153,189, 0.5) 111.58%);
   border: none; /*1px inset rgba(255, 255, 255, 0.5);*/
   
   font-size: 20px;
@@ -256,9 +256,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 } */
 .banner img {
-  
+  width: 500px;
+  height: 500px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 80%, transparent 100%);
   animation: updown 3s linear infinite;
+
 }
 @keyframes updown {
     0% {
@@ -277,7 +279,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*skills*/
 .skill {
   padding: 0 0 50px 0 ;
-  background-image: linear-gradient(#120c20, #39284d);
+  background-image: linear-gradient(rgb(4,13,37), rgb(31,50,77));
   
   position: relative;
 }
@@ -326,7 +328,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-image: linear-gradient(#39284d,rgb(101, 63, 116));
+  background-image: linear-gradient( rgb(31,50,77),rgb(64,100,130));
 }
 .project h2 {
 	font-size: 45px;
@@ -466,7 +468,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*****Achievements*******/
 .achievement {
   padding: 80px 0;
-  background-image: linear-gradient(rgb(101, 63, 116),#4d284a);
+  background-image: linear-gradient(rgb(64,100,130),rgb(83,132,152));
   
   position: relative;
 }
