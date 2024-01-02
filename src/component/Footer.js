@@ -16,10 +16,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://drive.google.com/drive/folders/1ORlHiX1kqc2oDRmnNGjPzG7SN6nxxQBR?usp=sharing" target="_blank"><img src={cv} alt="Icon" /></a>
-              <a href="https://github.com/diyaghodasara" target="_blank"><img src={git} alt="Icon" /></a>
-              <a href="https://www.linkedin.com/in/diya-g-536692223/" target="_blank"><img src={linkedin} alt="Icon" /></a>
-              <a href="https://leetcode.com/diya_ghodasara/" target="_blank"><img src={leetcode} alt="Icon" /></a>
+              <a href="https://drive.google.com/file/d/17YbAl8R14sRGUtdiCD2NM-dJJ6GRlamU/view?usp=sharing" target="_blank"><img src={cv} alt="Icon" /></a>
+              <a href="https://github.com/Jaskaran0702" target="_blank"><img src={git} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/jaskaran-baweja-0b125522a/" target="_blank"><img src={linkedin} alt="Icon" /></a>
+              <a href="https://leetcode.com/Jaskaran07/" target="_blank"><img src={leetcode} alt="Icon" /></a>
             </div>
           </Col>
         </Row>

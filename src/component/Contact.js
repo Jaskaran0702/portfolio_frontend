@@ -21,11 +21,11 @@ export const Contact = () => {
         [category]: value
       })
   }
-
+//http://localhost:5000/contact
   const handleSubmit = async (e) => {
     e.preventDefault();// so page doesnot reload
     setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("https://portfolio-back-k9kw.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
