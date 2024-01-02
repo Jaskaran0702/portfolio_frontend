@@ -5,6 +5,7 @@ import leetcode from "../assets/images/leetcode.png";
 import coding from "../assets/images/coding.png";
 import jeemain from "../assets/images/jeemain.png";
 import jeeadv from "../assets/images/jeeadv.jpeg";
+import cn from "../assets/images/coding-ninjas.jpg"
 export const Achievement = ()=>{
     const responsive = {
         superLargeDesktop: {
@@ -26,10 +27,10 @@ export const Achievement = ()=>{
         }
       };
       const data = [
-        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Rating of 1970"},
+        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Rating of 1970 and got Knight Badge"},
         { image: coding, title: "Coding Platforms", description :"Solved 1100+ question across various coding platforms"},
         { image: jeemain, title: "Jee Mains" , description :"Obtained 97.5 percentile in JEE MAINS 2021"},
-        { image: jeeadv, title: "Jee Advanced", description :"Obtained 16819 rank in JEE Advanced 2021" },
+        { image: cn, title: "Coding Ninjas", description :"Obtained 11th rank in Coding Ninjas Weekend Contest 95" },
         
       ];
     return (

@@ -6,7 +6,7 @@ import bannerimg from "../assets/images/p1_final.png";
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [" Web-Developer", " Knight-Coder", " Student"];
+    const toRotate = [" Web-Developer", " Knight@Leetcode", " Student"];
     const [text,setText] = useState('');
     const [delta, setDelta] = useState(300-Math.random()*100);
     const period = 2000;
@@ -36,7 +36,7 @@ export const Banner = () =>{
         }else if(isDeleting && updatedText===''){
             setIsDeleting(false);
             setLoopNum(loopNum+1);
-            setDelta(500);
+            setDelta(350);
         }
     }
     return (
