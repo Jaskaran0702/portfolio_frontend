@@ -27,7 +27,7 @@ export const Achievement = ()=>{
         }
       };
       const data = [
-        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Rating of 1970 and got Knight Badge"},
+        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Rating of 2026 and got Knight Badge"},
         { image: coding, title: "Coding Platforms", description :"Solved 1100+ question across various coding platforms"},
         { image: jeemain, title: "Jee Mains" , description :"Obtained 97.5 percentile in JEE MAINS 2021"},
         { image: cn, title: "Coding Ninjas", description :"Obtained 11th rank in Coding Ninjas Weekend Contest 95" },

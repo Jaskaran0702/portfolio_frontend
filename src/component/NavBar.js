@@ -3,11 +3,11 @@ import { Navbar,Container, Nav} from "react-bootstrap";
 import cv from '../assets/images/cv.png';
 import linkedin from '../assets/images/linkedin.png';
 import git from'../assets/images/github.png';
+import leetcode from "../assets/images/leetcode.png";
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-
 export const NavBar=() =>
 {
     const [activeLink, setActiveLink] = useState('home');
@@ -54,6 +54,7 @@ export const NavBar=() =>
                   <a href="https://drive.google.com/file/d/17YbAl8R14sRGUtdiCD2NM-dJJ6GRlamU/view?usp=sharing" target="_blank"><img src={cv} alt="resume"/></a>
                   <a href="https://www.linkedin.com/in/jaskaran-baweja-0b125522a/" target="_blank"><img src={linkedin} alt="linkedIn"/></a>
                   <a href="https://github.com/Jaskaran0702" target="_blank"><img src={git} alt="Icon" /></a>
+                  <a href="https://leetcode.com/Jaskaran07/" target="_blank"><img src={leetcode} alt="Icon" /></a>
               </div>
               <HashLink to='#connect'>
               <button className="vvd"><span>Let's Connect</span></button>
